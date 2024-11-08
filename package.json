@@ -1,5 +1,5 @@
 {
-    "name": "@xhayper/discord-rpc",
+    "name": "@kostya/discord-rpc",
     "version": "1.2.0",
     "description": "a fork of discordjs/RPC",
     "main": "dist/index.js",
@@ -24,7 +24,7 @@
         "discord-ipc"
     ],
     "scripts": {
-        "build": "rimraf dist && esbuild src/index.ts --bundle --platform=node --minify --outdir=dist --define:process.env.WS_NO_BUFFER_UTIL=\\\"ture\\\" --define:process.env.WS_NO_UTF_8_VALIDATE=\\\"ture\\\"",
+        "build": "rimraf dist && esbuild src/index.ts --bundle --platform=node --minify --outdir=dist --define:process.env.WS_NO_BUFFER_UTIL=\\\"ture\\\" --define:process.env.WS_NO_UTF_8_VALIDATE=\\\"ture\\\" && tsc --emitDeclarationOnly",
         "prepack": "pnpm run build"
     },
     "dependencies": {
