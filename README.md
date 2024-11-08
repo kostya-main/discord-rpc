@@ -13,7 +13,7 @@
 
 ## About
 
-`@kostya-main/discord-rpc` is a fork of [discordjs/RPC](https://github.com/discordjs/RPC) with type safety and some additional features. The difference from xhayper/discord-rpc is that [ws]{https://www.npmjs.com/package/ws} does not use the native modules utf-8-validate and bufferutil.
+`@kostya-main/discord-rpc` is a fork of [discordjs/RPC](https://github.com/discordjs/RPC) with type safety and some additional features. The difference from xhayper/discord-rpc is that [ws](https://www.npmjs.com/package/ws) does not use the native modules utf-8-validate and bufferutil.
 
 ## Example
 
