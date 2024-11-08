@@ -8,7 +8,7 @@
     "types": "dist/index.d.ts",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/xhayper/discord-rpc.git"
+        "url": "git+https://github.com/kostya-main/discord-rpc.git"
     },
     "bugs": {
         "url": "https://github.com/xhayper/discord-rpc/issues"
