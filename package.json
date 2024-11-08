@@ -1,6 +1,6 @@
 {
     "name": "@kostya-main/discord-rpc",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "a fork of discordjs/RPC",
     "main": "dist/index.js",
     "author": "xhayper",
