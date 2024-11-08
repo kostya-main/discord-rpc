@@ -1,10 +1,10 @@
 <!-- markdownlint-disable -->
 <div align="center">
     <br />
-    <h3>@kostya/discord-rpc</h3>
+    <h3>@kostya-main/discord-rpc</h3>
     <br />
     <p>
-        <a href="https://www.npmjs.com/package/@kostya/discord-rpc" target="_blank"><img src="https://img.shields.io/npm/v/@kostya/discord-rpc.svg" alt="npm version"/></a>
+        <a href="https://www.npmjs.com/package/@kostya-main/discord-rpc" target="_blank"><img src="https://img.shields.io/npm/v/@kostya-main/discord-rpc.svg" alt="npm version"/></a>
         <a href="https://discord.com/invite/xTAR8nUs2g" target="_blank"><img src="https://img.shields.io/discord/965168309731487805.svg" alt="discord"/></a>
         <a href="https://github.com/xhayper/discord-rpc/blob/main/LICENSE" target="_blank"><img src="https://img.shields.io/github/license/xhayper/discord-rpc.svg" alt="license"/></a>
     </p>
@@ -13,12 +13,12 @@
 
 ## About
 
-`@kostya/discord-rpc` is a fork of [discordjs/RPC](https://github.com/discordjs/RPC) with type safety and some additional features. The difference from xhayper/discord-rpc is that [ws]{https://www.npmjs.com/package/ws} does not use the native modules utf-8-validate and bufferutil.
+`@kostya-main/discord-rpc` is a fork of [discordjs/RPC](https://github.com/discordjs/RPC) with type safety and some additional features. The difference from xhayper/discord-rpc is that [ws]{https://www.npmjs.com/package/ws} does not use the native modules utf-8-validate and bufferutil.
 
 ## Example
 
 ```ts
-import { Client } from "@kostya/discord-rpc";
+import { Client } from "@kostya-main/discord-rpc";
 
 const client = new Client({
     clientId: "123456789012345678"
